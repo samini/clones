@@ -7,4 +7,7 @@ http://stackoverflow.com/questions/12633843/get-all-of-the-pictures-from-an-ipho
 
 http://stackoverflow.com/questions/9705478/get-list-of-all-photo-albums-and-thumbnails-for-each-album
 
+in swift:
+
+http://stackoverflow.com/questions/24723216/using-alasset-in-swift
 
