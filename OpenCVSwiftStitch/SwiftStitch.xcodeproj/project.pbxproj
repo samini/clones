@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		676A38BF19D799CA004FA792 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676A38BC19D799CA004FA792 /* CollectionViewCell.swift */; };
+		676A38C019D799CA004FA792 /* CollectionViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676A38BD19D799CA004FA792 /* CollectionViewHeader.swift */; };
+		676A38C119D799CA004FA792 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676A38BE19D799CA004FA792 /* ViewController.swift */; };
+		676A38C319D799E6004FA792 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676A38C219D799E6004FA792 /* DataModel.swift */; };
 		95A89A721F114F618E29FA73 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3A1402E6A4343CFA7DCF2FD /* libPods.a */; };
 		AB7D8E7A193E928E0059EE63 /* UIImage+OpenCV.mm in Sources */ = {isa = PBXBuildFile; fileRef = AB7D8E79193E928E0059EE63 /* UIImage+OpenCV.mm */; };
 		AB7D8E7D193E92B80059EE63 /* CVWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = AB7D8E7C193E92B80059EE63 /* CVWrapper.mm */; };
@@ -19,6 +23,10 @@
 
 /* Begin PBXFileReference section */
 		674BC08619D76B2D00226917 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		676A38BC19D799CA004FA792 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		676A38BD19D799CA004FA792 /* CollectionViewHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewHeader.swift; sourceTree = "<group>"; };
+		676A38BE19D799CA004FA792 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		676A38C219D799E6004FA792 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		847D84BBDBD74975B823BF6D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		AB6D1AEE193F9B6600F8B0F5 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.markdown; sourceTree = "<group>"; };
 		AB7D8E77193E928D0059EE63 /* SwiftStitch-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftStitch-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -74,6 +82,9 @@
 		AB896A84193E8E830018B9EC /* SwiftStitch */ = {
 			isa = PBXGroup;
 			children = (
+				676A38BC19D799CA004FA792 /* CollectionViewCell.swift */,
+				676A38BD19D799CA004FA792 /* CollectionViewHeader.swift */,
+				676A38BE19D799CA004FA792 /* ViewController.swift */,
 				AB7D8E78193E928E0059EE63 /* UIImage+OpenCV.h */,
 				AB7D8E79193E928E0059EE63 /* UIImage+OpenCV.mm */,
 				AB896A87193E8E830018B9EC /* AppDelegate.swift */,
@@ -86,6 +97,7 @@
 				AB7D8E7F193E92C30059EE63 /* stitching.h */,
 				AB896A85193E8E830018B9EC /* Supporting Files */,
 				AB7D8E77193E928D0059EE63 /* SwiftStitch-Bridging-Header.h */,
+				676A38C219D799E6004FA792 /* DataModel.swift */,
 			);
 			path = SwiftStitch;
 			sourceTree = "<group>";
@@ -222,10 +234,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB896A8A193E8E830018B9EC /* SwViewController.swift in Sources */,
+				676A38C019D799CA004FA792 /* CollectionViewHeader.swift in Sources */,
 				AB7D8E80193E92C30059EE63 /* stitching.cpp in Sources */,
+				676A38BF19D799CA004FA792 /* CollectionViewCell.swift in Sources */,
 				AB7D8E7A193E928E0059EE63 /* UIImage+OpenCV.mm in Sources */,
 				AB7D8E7D193E92B80059EE63 /* CVWrapper.mm in Sources */,
+				676A38C119D799CA004FA792 /* ViewController.swift in Sources */,
 				AB896A88193E8E830018B9EC /* AppDelegate.swift in Sources */,
+				676A38C319D799E6004FA792 /* DataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
