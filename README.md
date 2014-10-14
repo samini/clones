@@ -1,6 +1,8 @@
 clones
 ======
 
+This repo contains hackathon code. The code will not be maintained.
+
 Access all photos on phone:
 
 http://stackoverflow.com/questions/12633843/get-all-of-the-pictures-from-an-iphone-photolibrary-in-an-array-using-assetslibr
